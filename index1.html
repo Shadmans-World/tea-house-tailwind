@@ -26,11 +26,12 @@
 }
      </style>
 </head>
-<body class="font-manrope">
-    <header class="max-w-screen-xl mx-auto px-16 lg:px-28">
-        <section class="flex pt-10 mb-20">
+<body class="font-manrope max-w-screen-xl mx-auto px-16 lg:px-28">
+  <!-- header Start -->
+    <header >
+        <section class="min-[1024px]:flex pt-10 mb-20 gap-4">
           <!-- Text Content -->
-           <div>
+           <div class="">
             <h1 class="text-5xl md:text-8xl font-extrabold">
             It's good 
             tea time <br>at The Tea House</h1>
@@ -42,10 +43,10 @@
 
 
            <!-- Image Content -->
-           <div class="relative">
+           <div class="relative ">
               <!-- Image -->
                <div>
-                <img class="w-full" src="images/banner.png" alt="">
+                <img class="w-ful " src="images/banner.png" alt="">
                </div>
 
                <!-- card -->
@@ -62,15 +63,56 @@
                 </div>
 
            </div>
-
-
-           
         </section>
   
       </header>
 
+      <!-- main -->
       <main >
+        <!-- Featured Products -->
+         <section class="py-8 lg:py-24">
+          <div class="text-center mx-auto w-2/3 mb-8">
+            <h1 class="text-3xl md:text-4xl font-bold mb-2">Our Featured Products</h1>
+            <p class="text-gray-600 max-w-2xl mx-auto text-base font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+          </div>
+          <!-- grid -->
+          <div class="grid grid-cols-4 gap-6 items-center text-center  max-[768px]:grid-cols-2 max-[576px]:grid-cols-1">
+            <!-- Tea 1 -->
+            <div class="rounded-lg shadow-md bg-gray-50 py-7">
+              <img class="mx-auto pt-4" src="images/tea-1.png" alt="">
+              <div class="p-4">
+                <h2 class="font-bold text-xl">Milk Tea</h2>
+                <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+            <!-- Tea 2 -->
+            <div class="rounded-lg shadow-md bg-gray-50 py-7">
+              <img class="mx-auto pt-4" src="images/tea-2.png" alt="">
+              <div class="p-4">
+                <h2 class="font-bold text-xl">Black Tea</h2>
+                <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+            <!-- tea 3 -->
+            <div class="rounded-lg shadow-md bg-gray-50 py-7">
+              <img class="mx-auto pt-4" src="images/tea-3.png" alt="">
+              <div class="p-4">
+                <h2 class="font-bold text-xl">Lemon Tea</h2>
+                <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+            <!-- tea 4 -->
+            <div class="rounded-lg shadow-md bg-gray-50 py-7">
+              <img class="mx-auto pt-4" src="images/tea-4.png" alt="">
+              <div class="p-4">
+                <h2 class="font-bold text-xl">Green Tea</h2>
+                <p class="text-gray-600">Creamer could be replaced by fresh milk</p>
+              </div>
+            </div>
+          </div>
+         </section>
 
+         
       </main>
 
       <footer>
